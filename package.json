@@ -1,0 +1,22 @@
+{
+    "name": "hygraph-api",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "dependencies": {
+      "@graphcms/html-to-slate-ast": "^0.14.1",
+      "cors": "^2.8.5",
+      "express": "^4.21.2",
+      "jsdom": "^24.0.0"
+    }
+}
